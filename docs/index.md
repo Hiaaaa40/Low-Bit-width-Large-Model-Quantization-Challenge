@@ -8,10 +8,10 @@ This challenge is an official challenge track of the
 
 ## 🔹 Quick Start
 
-- 📄 **Challenge Description (PDF):** [Download the Challenge Description (PDF)](../assets/ICME_challenge.pdf)
+- 📄 **Challenge Description (PDF):** [Download the Challenge Description (PDF)](assets/ICME_challenge.pdf)
 - 📝 **Registration Form:** https://forms.gle/eFQW3FXuPB8bVjWX9
-- 💻 **Code, Tools, Datasets (GitCode Repository):** https://gitcode.com/your-username/your-repo-name
-- 📦 **Download Code (ZIP from GitCode):** https://gitcode.com/your-username/your-repo-name/archive/refs/heads/main.zip
+- 💻 **Code, Tools, Datasets (GitCode Repository):** [GitCode - Low-precision LLM Efficient Computation Challenge](https://gitcode.com/GCC-GlobalComputingConsortium/Low-precision_Large_Language_Model_Efficient_Computation_Challenge)
+- 📦 **Download Code (ZIP from GitCode):** [Gitcode_baseline](https://gitcode.com/GCC-GlobalComputingConsortium/Low-precision_Large_Language_Model_Efficient_Computation_Challenge/tree/main/baseline))
 
 ---
 
@@ -34,7 +34,7 @@ Each participant or team may **choose to participate in only one sub-challenge**
 Submissions across multiple sub-challenges are not allowed.
 
 📄 Full technical details are available in the challenge description PDF:  
-👉 [Download the Challenge Description (PDF)](../assets/ICME_challenge.pdf)
+👉 [Download the Challenge Description (PDF)](assets/ICME_challenge.pdf)
 
 ---
 
@@ -77,17 +77,12 @@ For registration inquiries:
 
 ## 5. Important Dates
 
-### 📝 Phase 1 — Registration
-📅 Jan 30, 2026 – Mar 10, 2026
-
-### 📤 Phase 2 — Submission
-📅 Feb 10, 2026 – Mar 15, 2026
-
-### 🔍 Phase 3 — Review
-📅 Mar 16, 2026 – Mar 29, 2026
-
-### 📢 Phase 4 — Announcement
-📅 Mar 30, 2026
+| Phase | Description | Date |
+|------|-------------|------|
+| Registration | Challenge registration period | Jan 30, 2026 – Mar 10, 2026 |
+| Submission | Result submission window | Feb 10, 2026 – Mar 15, 2026 |
+| Review | Review & reproducibility verification | Mar 16, 2026 – Mar 29, 2026 |
+| Announcement | Final results announcement | Mar 30, 2026 |
 
 ---
 
