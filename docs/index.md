@@ -4,11 +4,13 @@
 This challenge is an official challenge track of the  
 **IEEE International Conference on Multimedia & Expo (ICME) 2026**.
 
+> **Latest release:** v1.0 (2026-01-23)  
+> If you are seeing an older version, please hard refresh the page (Ctrl/Cmd + Shift + R).
 ---
 
 ## 🔹 Quick Start
 
-- 📄 **Challenge Description (PDF):** [Download the Challenge Description (PDF)](assets/ICME_challenge.pdf)
+- 📄 **Challenge Description (PDF):** [Download the Challenge Description (PDF)](docs/ICME_challenge.pdf)
 - 📝 **Registration Form:** https://forms.gle/eFQW3FXuPB8bVjWX9
 - 💻 **Code, Tools, Datasets (GitCode Repository):** [GitCode - Low-precision LLM Efficient Computation Challenge](https://gitcode.com/GCC-GlobalComputingConsortium/Low-precision_Large_Language_Model_Efficient_Computation_Challenge)
 - 📦 **Download Code (ZIP from GitCode):** [Gitcode_baseline](https://gitcode.com/GCC-GlobalComputingConsortium/Low-precision_Large_Language_Model_Efficient_Computation_Challenge/tree/main/baseline))
@@ -34,7 +36,7 @@ Each participant or team may **choose to participate in only one sub-challenge**
 Submissions across multiple sub-challenges are not allowed.
 
 📄 Full technical details are available in the challenge description PDF:  
-👉 [Download the Challenge Description (PDF)](assets/ICME_challenge.pdf)
+👉 [Download the Challenge Description (PDF)](docs/ICME_challenge.pdf)
 
 ---
 
