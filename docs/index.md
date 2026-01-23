@@ -6,6 +6,7 @@ This challenge is an official challenge track of the
 
 > **Latest release:** v1.0 (2026-01-23)  
 > If you are seeing an older version, please hard refresh the page (Ctrl/Cmd + Shift + R).
+> <!-- rebuild -->
 ---
 
 ## 🔹 Quick Start
