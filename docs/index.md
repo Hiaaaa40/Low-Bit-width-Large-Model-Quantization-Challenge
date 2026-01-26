@@ -3,7 +3,12 @@
 This challenge is an official challenge track of the  
 **IEEE International Conference on Multimedia & Expo (ICME) 2026**.
 
-> **Latest release:** v1.0 (2026-01-23)  
+> **Note:** This page provides a brief overview of the challenge.  
+> The **complete project description, technical details, rules, and all related files** are available in the official **GitCode repository**，[Low-precision LLM Efficient Computation Challenge – GitCode](https://gitcode.com/GCC-GlobalComputingConsortium/Low-precision_Large_Language_Model_Efficient_Computation_Challenge).
+
+---
+
+> **Latest release:** v1.2 (2026-01-26)  
 > If you are seeing an older version, please hard refresh the page (Ctrl/Cmd + Shift + R).
 > <!-- rebuild -->
 ---
@@ -18,9 +23,6 @@ This challenge is an official challenge track of the
 
 - 📝 **Registration Form:**  
   [Register for the Challenge](https://forms.gle/eFQW3FXuPB8bVjWX9)
-
-- 🧰 **Code, Tools, and Datasets:**  
-  [Browse Code and Resources on GitCode](https://gitcode.com/GCC-GlobalComputingConsortium/Low-precision_Large_Language_Model_Efficient_Computation_Challenge)
 
 
 ---
@@ -54,7 +56,7 @@ Submissions across multiple sub-challenges are not allowed.
 https://forms.gle/eFQW3FXuPB8bVjWX9
 
 For registration inquiries:  
-📧 icme_challenge_registration@your-domain.com
+📧 zhaoy21@tsinghua.org.cn
 
 ---
 
@@ -98,8 +100,7 @@ For registration inquiries:
 
 ## 6. Submission
 
-📧 **Submission Email:**  
-submission_icme_challenge@your-domain.com
+📧 **Submission Email:**  zhaoy21@tsinghua.org.cn
 
 Each submission must be sent as a single archive (`.zip` / `.tar.gz`) and include:
 - Quantized model weights (`.pt` / `.ckpt` / equivalent)
@@ -118,12 +119,36 @@ will be maintained in the **GitCode repository**:
 
 ---
 
-## 8. Official Contact
+## 8. Awards
 
-📧 icme_challenge@your-domain.com
+The challenge includes **two independent sub-challenges**, each evaluated separately.  
+For **each sub-challenge**, the following awards will be granted:
+
+- **First Prize**
+- **Second Prize**
+- **Third Prize**
+
+Each team may participate in **only one sub-challenge**.  
+Teams submitting to multiple sub-challenges will be **disqualified from all rankings and awards**.
+
+In addition to the ranked prizes, the organizing committee will also present the following **special awards**:
+
+- **Technical Innovation Award**
+- **Engineering Excellence Award**
+- **Application Potential Award**
+- **Judges’ Special Award**
+
+All award-winning submissions are required to **publicly release their source code and related technical materials** as a condition for receiving any award.
+
+The award announcement schedule follows the timeline specified in **5. Important Dates**.
 
 ---
 
-*Note: This challenge is jointly released by **Huawei Technologies Co., Ltd.** and
-**Tsinghua University**. Baseline code, simulation tools, datasets, and evaluation
+## 9. Official Contact
+
+📧 zhaoy21@tsinghua.org.cn
+
+---
+
+*Note: This challenge is jointly released by **Tsinghua University**. Baseline code, simulation tools, datasets, and evaluation
 scripts will be released in stages. Please watch the GitCode repository for updates.*
