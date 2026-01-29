@@ -4,7 +4,6 @@ This challenge is an official challenge track of the
 **IEEE International Conference on Multimedia & Expo (ICME) 2026**.
 
 > **Note:** This page provides a brief overview of the challenge.  
-> The **complete project description, technical details, rules, and all related files** are available in the official **GitCode repository**，[Low-precision LLM Efficient Computation Challenge – GitCode](https://gitcode.com/GCC-GlobalComputingConsortium/Low-precision_Large_Language_Model_Efficient_Computation_Challenge).
 
 ---
 
@@ -13,7 +12,7 @@ This challenge is an official challenge track of the
 ## 🔹 Quick Start
 
 - 💻 **Complete Project Repository (GitCode):**  
-  [Low-precision LLM Efficient Computation Challenge – GitCode](https://gitcode.com/GCC-GlobalComputingConsortium/Low-precision_Large_Language_Model_Efficient_Computation_Challenge)
+  Low-precision LLM Efficient Computation Challenge – GitCode (Will add link to the repository of the dataset)
 
 - 📝 **Registration Form:**  
   [Register for the Challenge](https://forms.gle/eFQW3FXuPB8bVjWX9)
@@ -28,7 +27,7 @@ This challenge is an official challenge track of the
 The challenge centers on **Text-to-Image** and **Text-to-Video** generation tasks. This challenge establishes two primary research directions focusing on low-precision computation for large-scale models.
 
 **Direction A – Quantization-Aware Training (QAT).**  
-Participants are required to use specified public datasets and pre-trained models to perform quantization-aware fine-tuning using the **HiFloat8 (HiF8)** numerical format. The objective is to optimize model accuracy on downstream tasks while reducing training and computation costs.
+Participants are required to use specified public datasets and pre-trained models to perform quantization-aware fine-tuning using the **HiFloat8 (HiF8)** numerical format [1]. The objective is to optimize model accuracy on downstream tasks while reducing training and computation costs.
 
 **Direction B – Post-Training Quantization (PTQ).**  
 Participants are required to apply inference-time quantization directly to pre-trained models to achieve model compression and acceleration. Low-precision formats such as **HiFloat4 (HiF4)** or **MXFP4** are used in this direction.
@@ -56,14 +55,14 @@ To promote and encourage research into ultra-low precision data formats for quan
 
 The reference model for this Mini-Challenge is **Pangu-72B-2512**. Evaluation is conducted on standard downstream task datasets, using the **mean absolute percentage precision loss** as the final metric.
 
-The objective is to achieve a **W4A4 inference average precision loss that is no more than 1% lower than the BF16 baseline** on the following datasets:
+The objective is to achieve a **W4A4 inference average precision loss that is no more than 1% lower than the BF16 average baseline** on the following datasets:
 - SuperGPQA  
 - IF-Eval  
 - AIME2025  
 - LiveCodeBench V6  
 - BFCL-V3  
 
-Only submissions that satisfy this objective will qualify for evaluation for the Innovation Award.
+**Only submissions that satisfy this objective will qualify for evaluation for the Innovation Award.**
 
 ---
 
@@ -97,7 +96,19 @@ The target objectives are:
 - Training loss **less than 0.5%**
 - Precision loss **less than 1.0%**
 
-Only submissions that satisfy both objectives will qualify for evaluation for the Innovation Award.
+**Only submissions that satisfy both objectives will qualify for evaluation for the Innovation Award.**
+
+---
+
+### References
+
+[1] Luo Y., Zhang Z., Wu R., et al.  
+**Ascend HiFloat8 Format for Deep Learning.**  
+*arXiv preprint*, arXiv:2409.16626, 2024.
+
+[2] Peng H., Wu K., Wei Y., et al.  
+**FP8-LM: Training FP8 Large Language Models.**  
+*arXiv preprint*, arXiv:2310.18313, 2023.
 
 ---
 
