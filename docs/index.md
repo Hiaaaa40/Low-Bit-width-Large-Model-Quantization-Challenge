@@ -111,6 +111,12 @@ https://forms.gle/eFQW3FXuPB8bVjWX9
 For registration inquiries:  
 📧 zhaoy21@tsinghua.org.cn
 
+### Participation Terms
+
+- **Award-winning teams** are required to **open-source their final submissions on GitCode**, including all source code, relevant materials, and team information.
+- Participants should **ensure that all necessary internal approvals** (e.g., institutional, corporate, or legal) are obtained **prior to participation**.
+- **Participation in this challenge constitutes acceptance of all terms and conditions** set forth by the organizers.
+
 ---
 
 
@@ -222,6 +228,14 @@ Each submission must be sent as a single archive (`.zip` / `.tar.gz`) and includ
 - Technical report (**PDF**)
 - Reproducibility scripts + instructions
 
+
+> **Please note:**  
+>  
+> - Award-winning teams are required to open-source all source code, materials, and team information.  
+> - The participating team acknowledges and agrees that the submitted materials are original and do not infringe on any third-party rights.  
+>  
+> For details, please refer to the **Awards** section.
+
 ---
 
 ## 7. Code, Tools, and Datasets
@@ -253,6 +267,15 @@ The **Innovation Awards** are evaluated **across all sub-challenges**, including
   **$800** per award  
   Evaluated exclusively based on the **Innovation** criterion  
   *(Eligible submissions include all main-track and Mini-Challenge entries)*
+
+
+> **Mandatory Open-Source Requirement**  
+>  
+> All award-winning teams are required to open-source their final submission, including source code, materials, and team information, on **GitCode**.  
+>  
+> This is a **mandatory condition** for receiving any award. Failure to comply within **7 working days** after the award announcement may result in **disqualification and revocation of the award**.  
+>  
+> Alternatively, teams may voluntarily **forfeit their awards** if they choose not to comply with the open-source requirement.
 
 ---
 
