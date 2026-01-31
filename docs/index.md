@@ -24,7 +24,7 @@ This challenge is an official challenge track of the
 
 ## Challenge Details
 
-The challenge centers on **Text-to-Image** and **Text-to-Video** generation tasks. This challenge establishes two primary research directions focusing on low-precision computation for large-scale models.
+The challenge centers on **Text-to-Image** and **Text-to-Video** generation tasks. This challenge establishes two primary research directions focusing on low-precision computation for Large Language Models(LLM).
 
 **Direction A – Quantization-Aware Training (QAT).**  
 Participants are required to use specified public datasets and pre-trained models to perform quantization-aware fine-tuning using the **HiFloat8 (HiF8)** numerical format [1]. The objective is to optimize model accuracy on downstream tasks while reducing training and computation costs.
@@ -37,21 +37,18 @@ Each participant may **choose only one sub-challenge** to participate in.
 
 ---
 
-### Sub-Challenge A: W4A4 Quantization for Inference (HiF4 / MXFP4)
+### Sub-Challenge 1: W4A4 Quantization for Inference (HiF4 / MXFP4)
 
-Large model inference faces significant deployment costs, which often constrain large-scale application. Quantizing the weights and activations of linear layers can effectively reduce weight movement overhead and leverage low-precision computational capabilities to enhance inference performance.
+LLM inference faces significant deployment costs, which often constrain application proliferation. Quantizing the weights and activations of the linear layers in LLM effectively enhances inference performance.
 
 This sub-challenge focuses on **4-bit weight and activation quantization (W4A4)**, restricted to either the **HiF4** or **MXFP4** numerical format. Participants are required to develop and apply quantization strategies to the open-source, state-of-the-art multimodal generative model **Wan 2.2**.
+We will utilize the comprehensive OpenS2V-5M dataset and associated VBench[2] metrics to rank the score.
 
-The evaluation will utilize the **OpenS2V-5M** dataset and associated **VBench** metrics, which focus on subject-to-video generation fidelity and temporal consistency.
-
-Participants are permitted to protect a limited number of Transformer blocks in **BF16** precision:
-- A maximum of **5 layers** for MXFP4
-- A maximum of **2 layers** for HiF4
+Participants are allowed to keep a limited number of Transformer blocks in high precision: **a maximum of 5 layers for MXFP4 and 2 layers for HiF4**.
 
 #### Mini-Challenge for W4A4 Quantization
 
-To promote and encourage research into ultra-low precision data formats for quantization, a **Mini-Challenge** is established under this sub-challenge. This track will **not be formally ranked** against the main competition leaderboards. However, submissions to this track will be collectively eligible for consideration in the **Innovation Award** category.
+To promote and encourage research into low-precision data formats for quantization, a **Mini-Challenge** is established under this sub-challenge. This track will **not be formally ranked** against the main competition leaderboards. However, submissions to this track will be collectively eligible for consideration in the **Innovation Award** category.
 
 The reference model for this Mini-Challenge is **Pangu-72B-2512**. Evaluation is conducted on standard downstream task datasets, using the **mean absolute percentage precision loss** as the final metric.
 
@@ -66,17 +63,20 @@ The objective is to achieve a **W4A4 inference average precision loss that is no
 
 ---
 
-### Sub-Challenge B: W8A8 Quantization for Training (HiF8)
+### Sub-Challenge 2: W8A8 Quantization for Training (HiF8)
 
-Large model training incurs high computational costs and long iteration cycles, which limit rapid development and experimentation. Quantizing the weights and activations of linear layers, and utilizing low-precision formats within attention layers, can effectively reduce data movement costs and accelerate training through low-precision computation.
+LLM training incurs high costs and lengthy iteration cycles, limiting rapid development. Quantizing the weights and activations of linear layers, and utilizing low-precision formats within attention layers, can effectively reduce data movement costs and accelerate training via low-precision computation. 
 
-This sub-challenge focuses on **8-bit weight and activation quantization (W8A8)**, as well as attention quantization, strictly limited to the **HiFloat8 (HiF8)** numerical format. The test model for this task is **Wan2.1 T2V-1.3B**.
+This task focuses on **8-bit weight** and **activation quantization** and **attention quantization**, strictly limited to the **HiF8 numerical format**. The test model is **Wan2.1 T2V-1.3B**.
 
-Participants are encouraged to employ **delayed scaling strategies**[2] wherever possible to further minimize quantization overhead and accelerate training.
+Participants are encouraged to employ **delayed scaling strategies**[3] wherever possible to further minimize quantization overhead and accelerate training. 
 
-The training methodology will be evaluated based on the video generation quality of the post-training model using the **BestWishYsh** dataset. The **VBench** evaluation metric will be used, with a target **precision loss of less than 0.5%**.
+The training methodology will be evaluated based on the video generation quality produced by the post-training model using the **BestWishYsh** dataset. 
 
-Participants are allowed to keep a limited number of Transformer blocks in high precision, with up to **5 layers** retained during HiFloat8 training.
+The **Vbench** evaluation metric will be used, aiming for a precision loss of **less than 0.5%**.
+
+Participants are allowed to keep a limited number of Transformer blocks in high precision: up to **5 layers** when training with HiF8.
+
 
 #### Mini-Challenge for W8A8 Quantization
 
@@ -97,8 +97,6 @@ The target objectives are:
 - Precision loss **less than 1.0%**
 
 **Only submissions that satisfy both objectives will qualify for evaluation for the Innovation Award.**
-
-
 
 
 ---
@@ -302,6 +300,11 @@ The **Innovation Awards** are evaluated **across all sub-challenges**, including
 [2] Peng H., Wu K., Wei Y., et al.  
 **FP8-LM: Training FP8 Large Language Models.**  
 *arXiv preprint*, arXiv:2310.18313, 2023.
+
+[3] Huang Z., He Y., Yu J., et al.  
+**VBench: Comprehensive Benchmark Suite for Video Generative Models.**  
+In *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)*, 2024, pp. 21807–21818.
+
 
 *Note: Baseline code, simulation tools, datasets, and evaluation
 scripts will be released in stages. Please watch the GitCode repository for updates.*
