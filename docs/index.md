@@ -1,3 +1,4 @@
+<div style="text-align: justify;">
 # The IEEE International Conference on Multimedia & Expo (ICME) 2026 Low-Precision Large Language Model Efficient Computation Challenge
 
 This challenge is an official challenge track of the  
@@ -308,3 +309,4 @@ In *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recogn
 
 *Note: Baseline code, simulation tools, datasets, and evaluation
 scripts will be released in stages. Please watch the GitCode repository for updates.*
+</div>
