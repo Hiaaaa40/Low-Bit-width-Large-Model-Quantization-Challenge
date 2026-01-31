@@ -18,7 +18,7 @@ This challenge is an official challenge track of the
 - 📝 **Registration Form:**  
   [Register for the Challenge](https://forms.gle/eFQW3FXuPB8bVjWX9)
 
-<div style="text-align: justify;">
+
 ---
 
 ## 1. Challenge Description
@@ -309,4 +309,3 @@ In *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recogn
 
 *Note: Baseline code, simulation tools, datasets, and evaluation
 scripts will be released in stages. Please watch the GitCode repository for updates.*
-</div>
