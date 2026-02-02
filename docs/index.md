@@ -24,7 +24,6 @@ This challenge is an official challenge track of the
 ## 1. Challenge Description
 
 ## Challenge Details
-<div style="text-align: justify; text-justify: inter-ideograph;">
 The challenge centers on **Text-to-Image** and **Text-to-Video** generation tasks. This challenge establishes two primary research directions focusing on low-precision computation for Large Language Models(LLM).
 
 **Direction A – Quantization-Aware Training (QAT).**  
@@ -35,7 +34,6 @@ Participants are required to apply inference-time quantization directly to pre-t
 
 Based on these two research directions, **two sub-challenges** are set up. Each sub-challenge adheres to the unified principles stipulated in the *Evaluation Criteria* section.  
 Each participant may **choose only one sub-challenge** to participate in.
-</div>
 ---
 
 ### Sub-Challenge 1: W4A4 Quantization for Inference (HiF4 / MXFP4)
