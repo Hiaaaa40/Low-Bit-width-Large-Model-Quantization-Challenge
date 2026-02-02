@@ -33,7 +33,9 @@ Participants are required to use specified public datasets and pre-trained model
 Participants are required to apply inference-time quantization directly to pre-trained models to achieve model compression and acceleration. Low-precision formats such as **HiFloat4 (HiF4)** or **MXFP4** are used in this direction.
 
 Based on these two research directions, **two sub-challenges** are set up. Each sub-challenge adheres to the unified principles stipulated in the *Evaluation Criteria* section.  
+
 Each participant may **choose only one sub-challenge** to participate in.
+
 ---
 
 ### Sub-Challenge 1: W4A4 Quantization for Inference (HiF4 / MXFP4)
