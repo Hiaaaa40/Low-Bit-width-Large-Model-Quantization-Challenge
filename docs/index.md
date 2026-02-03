@@ -4,6 +4,8 @@ This challenge is an official challenge track of the
 **IEEE International Conference on Multimedia & Expo (ICME) 2026**.
 
 > **Note:** This page provides a brief overview of the challenge.  
+> The simulation tools, benchmarks, and related resources used in this challenge will be **released progressively**.  
+> Please **follow this page for the latest updates and announcements**.
 
 ---
 
