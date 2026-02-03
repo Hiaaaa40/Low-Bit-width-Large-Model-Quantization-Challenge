@@ -213,9 +213,10 @@ This section involves perceptual quality scoring by a panel of human judges, con
 | Phase | Description | Date |
 |------|-------------|------|
 | Registration | Challenge registration period | Feb 10, 2026 – Apr 10, 2026 |
-| Submission | Result submission window | Mar 15, 2026 – Apr 30, 2026 |
-| Review | Review & reproducibility verification | May 1, 2026 – May 12, 2026 |
-| Announcement | Final results announcement | **May 15, 2026** |
+| Submission | Result submission window | Mar 15, 2026 – Apr 20, 2026 **(Tentative)** |
+| Review | Review & reproducibility verification | Apr 15, 2026 – Apr 23 2026 **(Tentative)** |
+| Announcement | Final results announcement | Apr 27, 2026 **(Tentative)** |
+| Camera-Ready Deadline | Final results announcement | **May 15, 2026** |
 
 ---
 
