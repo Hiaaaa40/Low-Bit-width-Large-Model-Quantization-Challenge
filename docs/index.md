@@ -18,6 +18,7 @@ This challenge is an official challenge track of the
 
 - 📝 **Registration Form:**  
   [Register for the Challenge](https://forms.gle/eFQW3FXuPB8bVjWX9)
+  [Alternative Registration Form](https://wj.qq.com/s2/25735334/aa1d/) (**Only use this link when you have trouble opening the first registration link.**)
 
 
 ---
@@ -108,6 +109,7 @@ The target objectives are:
 
 🔗 **Registration Form:**  
 [Register for the Challenge](https://forms.gle/eFQW3FXuPB8bVjWX9)
+[Alternative Registration Form](https://wj.qq.com/s2/25735334/aa1d/) (**Only use this link when you have trouble opening the first registration link.**)
 
 For registration inquiries:  
 📧 zhaoy21@tsinghua.org.cn
@@ -117,6 +119,9 @@ For registration inquiries:
 - **Award-winning teams** are required to **[open source](https://docs.google.com/document/d/12AIKYPwdNWGMnQunCr4xBw059Wh4HeRd/edit?usp=sharing&ouid=116450756627452381830&rtpof=true&sd=true) their final submissions on GitCode**, including all source code, relevant materials, and team information.
 - Participants should **ensure that all necessary internal approvals** (e.g., institutional, corporate, or legal) are obtained **prior to participation**.
 - **Participation in this challenge constitutes acceptance of all terms and conditions** set forth by the organizers.
+- **Each participating team is permitted to register for and submit to only one sub-challenge.**  
+  Multiple registrations or submissions across different sub-challenges by the same team are strictly prohibited.  
+  If such behavior is identified, the **Organizing Committee reserves the right to disqualify the team from the challenge**.
 
 ---
 
