@@ -1,4 +1,4 @@
-# The IEEE International Conference on Multimedia & Expo (ICME) 2026 Large Language Model Low-Precision Efficient Computation Challenge
+# The IEEE International Conference on Multimedia & Expo (ICME) 2026 Large Model Low-Precision Quantization Challenge
 
 This challenge is an official challenge track of the  
 **IEEE International Conference on Multimedia & Expo (ICME) 2026**.
