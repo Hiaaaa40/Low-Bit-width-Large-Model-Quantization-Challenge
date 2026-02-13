@@ -34,7 +34,7 @@ The challenge centers on **Text-to-Image** and **Text-to-Video** generation task
 Participants are required to use specified public datasets and pre-trained models to perform quantization-aware fine-tuning using the **HiFloat8 (HiF8)** numerical format [1]. The objective is to optimize model accuracy on downstream tasks while reducing training and computation costs.
 
 **Direction B – Post-Training Quantization (PTQ).**  
-Participants are required to apply inference-time quantization directly to pre-trained models to achieve model compression and acceleration. Low-precision formats such as **HiFloat4 (HiF4)** or **MXFP4** are used in this direction.
+Participants are required to apply inference-time quantization directly to pre-trained models to achieve model compression and acceleration. Low-precision formats such as **HiFloat4 (HiF4)**[2] or **MXFP4**[3] are used in this direction.
 
 Based on these two research directions, **two sub-challenges** are set up. Each sub-challenge adheres to the unified principles stipulated in the *Evaluation Criteria* section.  
 
@@ -47,7 +47,7 @@ Each participant may **choose only one sub-challenge** to participate in.
 LLM inference faces significant deployment costs, which often constrain application proliferation. Quantizing the weights and activations of the linear layers in LLM effectively enhances inference performance.
 
 This sub-challenge focuses on **4-bit weight and activation quantization (W4A4)**, restricted to either the **HiF4** or **MXFP4** numerical format. Participants are required to develop and apply quantization strategies to the open-source, state-of-the-art multimodal generative model **Wan 2.2**.
-We will utilize the comprehensive OpenS2V-5M dataset and associated VBench[2] metrics to rank the score.
+We will utilize the comprehensive OpenS2V-5M dataset and associated VBench[5] metrics to rank the score.
 
 Participants are allowed to keep a limited number of Transformer blocks in high precision: **a maximum of 5 layers for MXFP4 and 2 layers for HiF4**.
 
@@ -74,7 +74,7 @@ LLM training incurs high costs and lengthy iteration cycles, limiting rapid deve
 
 This task focuses on **8-bit weight** and **activation quantization** and **attention quantization**, strictly limited to the **HiF8 numerical format**. The test model is **Wan2.1 T2V-1.3B**.
 
-Participants are encouraged to employ **delayed scaling strategies**[3] wherever possible to further minimize quantization overhead and accelerate training. 
+Participants are encouraged to employ **delayed scaling strategies**[4] wherever possible to further minimize quantization overhead and accelerate training. 
 
 The training methodology will be evaluated based on the video generation quality produced by the post-training model using the **BestWishYsh** dataset. 
 
@@ -313,11 +313,19 @@ The **Innovation Awards** are evaluated **across all sub-challenges**, including
 **Ascend HiFloat8 Format for Deep Learning.**  
 *arXiv preprint*, arXiv:2409.16626, 2024.
 
-[2] Peng H., Wu K., Wei Y., et al.  
+[2] Luo Y., Huang J., Cheng Y., st al.
+**HiFloat4 Format for Language Model Inference.**
+*arXiv preprint*, arXiv:2602.11287, 2026.
+
+[3] Rouhani B D, Zhao R, More A, et al. 
+**Microscaling data formats for deep learning.**
+*arXiv preprint*, arXiv:2310.10537, 2023.
+
+[4] Peng H., Wu K., Wei Y., et al.  
 **FP8-LM: Training FP8 Large Language Models.**  
 *arXiv preprint*, arXiv:2310.18313, 2023.
 
-[3] Huang Z., He Y., Yu J., et al.  
+[5] Huang Z., He Y., Yu J., et al.  
 **VBench: Comprehensive Benchmark Suite for Video Generative Models.**  
 In *Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)*, 2024, pp. 21807–21818.
 
