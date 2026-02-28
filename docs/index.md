@@ -248,16 +248,17 @@ Each submission must be sent as a single archive (`.zip` / `.tar.gz`) and includ
 
 ## 6. Code, Tools, and Datasets
 
-The **HiFloat8 (HiF8) simulation toolkit** used in this challenge has been officially released.
+The **HiFloat8/4 (HiF8/4) simulation toolkit** used in this challenge has been officially released.
 
 Participants are required to download and use the HiF8 simulation tools from the following repository:
 
 👉 **[HiFloat8 Simulation Toolkit (GitHub)](https://github.com/global-computing-consortium/HiFloat8)**
 
+👉 **[HiFloat4 Simulation Toolkit (GitHub)](https://github.com/global-computing-consortium/HiFloat4)**
+
 Detailed deployment instructions, environment configuration, and usage examples are provided in the **README** file of the repository.
 
-Please note that the simulation tools for **Sub-Challenge 1 (HiF4 / MXFP4)** will be released at a later stage.  
-Participants are advised to follow this page for the latest updates.
+
 
 ---
 
