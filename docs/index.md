@@ -250,7 +250,7 @@ Each submission must be sent as a single archive (`.zip` / `.tar.gz`) and includ
 
 The **HiFloat8/4 (HiF8/4) simulation toolkit** used in this challenge has been officially released.
 
-Participants are required to download and use the HiF8 simulation tools from the following repository:
+Participants are required to download and use the HiF8/4 simulation tools from the following repository:
 
 👉 **[HiFloat8 Simulation Toolkit (GitHub)](https://github.com/global-computing-consortium/HiFloat8)**
 
