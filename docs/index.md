@@ -76,7 +76,7 @@ This task focuses on **8-bit weight** and **activation quantization** and **atte
 
 Participants are encouraged to employ **delayed scaling strategies**[4] wherever possible to further minimize quantization overhead and accelerate training. 
 
-The training methodology will be evaluated based on the video generation quality produced by the post-training model using the **BestWishYsh** dataset. 
+The training methodology will be evaluated based on the video generation quality produced by the post-training model using the [BestWishYsh/OpenS2V-5M](https://huggingface.co/datasets/BestWishYsh/OpenS2V-5M) dataset. 
 
 The **Vbench** evaluation metric will be used, aiming for a precision loss of **less than 0.5%**.
 
