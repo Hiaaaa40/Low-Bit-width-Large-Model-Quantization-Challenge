@@ -110,6 +110,8 @@ The target objectives are:
 
 🔗 **Registration Form:**  
 [Register for the Challenge](https://forms.gle/eFQW3FXuPB8bVjWX9)
+
+
 [Alternative Registration Form](https://wj.qq.com/s2/25735334/aa1d/) (**Only use this link when you have trouble opening the first registration link.**)
 
 For registration inquiries:  
