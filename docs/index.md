@@ -87,7 +87,7 @@ Participants are allowed to keep a limited number of Transformer blocks in high 
 
 A Mini-Challenge is also established under this sub-challenge to encourage further exploration of low-precision training methodologies. This track will **not be formally ranked** on the main competition leaderboard, but eligible submissions will be considered for the **Innovation Award**.
 
-The test model for this Mini-Challenge is **OpenPangu1B**. Participants are encouraged to employ delayed scaling strategies to reduce quantization overhead and accelerate training.
+The test model for this Mini-Challenge is [OpenPangu1B](https://ai.gitcode.com/ascend-tribe/openPangu-Embedded-1B-V1.1). The training dataset is [HuggingFaceFW/fineweb](https://huggingface.co/datasets/HuggingFaceFW/fineweb) Participants are encouraged to employ delayed scaling strategies to reduce quantization overhead and accelerate training.
 
 Evaluation will be conducted on a set of language model benchmarks, including but not limited to:
 - MMLU  
