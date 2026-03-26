@@ -72,7 +72,7 @@ The objective is to achieve a **W4A4 inference average precision loss that is no
 
 LLM training incurs high costs and lengthy iteration cycles, limiting rapid development. Quantizing the weights and activations of linear layers, and utilizing low-precision formats within attention layers, can effectively reduce data movement costs and accelerate training via low-precision computation. 
 
-This task focuses on **8-bit weight** and **activation quantization** and **attention quantization**, strictly limited to the **HiF8 numerical format**. The test model is **Wan2.1 T2V-1.3B**.
+This task focuses on **8-bit weight** and **activation quantization** and **attention quantization**, strictly limited to the **HiF8 numerical format**. The test model is [Wan-AI/Wan2.1-T2V-14B-Diffusers](https://huggingface.co/Wan-AI/Wan2.1-T2V-14B-Diffusers).
 
 Participants are encouraged to employ **delayed scaling strategies**[4] wherever possible to further minimize quantization overhead and accelerate training. 
 
