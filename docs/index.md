@@ -46,7 +46,7 @@ Each participant may **choose only one sub-challenge** to participate in.
 
 LLM inference faces significant deployment costs, which often constrain application proliferation. Quantizing the weights and activations of the linear layers in LLM effectively enhances inference performance.
 
-This sub-challenge focuses on **4-bit weight and activation quantization (W4A4)**, restricted to either the **HiF4** or **MXFP4** numerical format. Participants are required to develop and apply quantization strategies to the open-source, state-of-the-art multimodal generative model **Wan 2.2**.
+This sub-challenge focuses on **4-bit weight and activation quantization (W4A4)**, restricted to either the **HiF4** or **MXFP4** numerical format. Participants are required to develop and apply quantization strategies to the open-source, state-of-the-art multimodal generative model [Wan-AI/Wan2.2-I2V-A14B](https://huggingface.co/Wan-AI/Wan2.2-I2V-A14B).
 We will utilize the comprehensive OpenS2V-5M dataset and associated VBench[5] metrics to rank the score.
 
 Participants are allowed to keep a limited number of Transformer blocks in high precision: **a maximum of 5 layers for MXFP4 and 2 layers for HiF4**.
