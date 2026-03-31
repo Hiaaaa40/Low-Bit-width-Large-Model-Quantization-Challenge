@@ -51,6 +51,8 @@ We will utilize the comprehensive OpenS2V-5M dataset and associated VBench[5] me
 
 Participants are allowed to keep a limited number of Transformer blocks in high precision: **a maximum of 5 layers for MXFP4 and 2 layers for HiF4**.
 
+P.S.: We recommend hwt=720*1280*61.
+
 #### Mini-Challenge for W4A4 Quantization
 
 To promote and encourage research into low-precision data formats for quantization, a **Mini-Challenge** is established under this sub-challenge. This track will **not be formally ranked** against the main competition leaderboards. However, submissions to this track will be collectively eligible for consideration in the **Innovation Award** category.
@@ -82,6 +84,7 @@ The **Vbench** evaluation metric will be used, aiming for a precision loss of **
 
 Participants are allowed to keep a limited number of Transformer blocks in high precision: up to **5 layers** when training with HiF8.
 
+P.S.: We recommend hwt=720*1280*61，batch size=1，training for 1000step.
 
 #### Mini-Challenge for W8A8 Quantization
 
