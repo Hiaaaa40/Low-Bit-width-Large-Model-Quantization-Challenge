@@ -274,6 +274,7 @@ Awards are established for this challenge to recognize both overall performance 
 The **First, Second, and Third Prizes** are awarded **separately for each sub-challenge**, based on the **total evaluation score** within that sub-challenge.  
 The **Innovation Awards** are evaluated **across all sub-challenges**, including Mini-Challenge submissions, and are judged solely on originality and breakthrough.
 
+
 - **First Prize (Each Sub-Challenge):**  
   **$3,000** — Top 1 participant in each sub-challenge
 
@@ -289,6 +290,16 @@ The **Innovation Awards** are evaluated **across all sub-challenges**, including
   *(Eligible submissions include all main-track and Mini-Challenge entries)*
 
 
+
+### Publication Opportunity
+
+Selected outstanding submissions, subject to the review of the organizing committee and compliance with the applicable publication requirements, may be recommended for technical report publication in **IEEE Xplore** and indexing by **EI Compendex**.
+
+This publication opportunity is intended to recognize high-quality and innovative work, and to provide additional academic and professional visibility for excellent challenge results.
+
+
+---
+
 > **Mandatory Open-Source Requirement**  
 >  
 > All award-winning teams are required to open-source their final submission, including source code, materials, and team information, on **GitCode**.  
@@ -296,6 +307,9 @@ The **Innovation Awards** are evaluated **across all sub-challenges**, including
 > This is a **mandatory condition** for receiving any award. Failure to comply within **7 working days** after the award announcement may result in **disqualification and revocation of the award**.  
 >  
 > Alternatively, teams may voluntarily **forfeit their awards** if they choose not to comply with the open-source requirement.
+
+
+
 
 ---
 
