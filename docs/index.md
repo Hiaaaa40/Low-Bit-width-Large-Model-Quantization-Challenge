@@ -164,7 +164,7 @@ Only submissions meeting this baseline requirement will proceed to the ranking p
 
 - **VBench**:  
   A comprehensive benchmark for video generation performance.
-
+  **We use maging Quality / Aesthetic Quality / Overall Consistency / Subject Consistency / Motion Smoothness for evaluation.**
 
 
 #### 3. Quantitative Proportions (20%)
