@@ -23,11 +23,11 @@ This challenge is an official challenge track of the
 
 -Link to the Q&A and Information Session Replay：
   
-  Youtube：https://www.youtube.com/watch?v=fxhK7GRIBb0
+  [Youtube](https://www.youtube.com/watch?v=fxhK7GRIBb0)
 
   Wechat：Global Computing Consortium WeChat Video Channel
 
-  -Demo Library：https://github.com/global-computing-consortium/ICME-Demo
+  [Demo Library](https://github.com/global-computing-consortium/ICME-Demo)
 ---
 
 
