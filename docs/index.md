@@ -21,7 +21,12 @@ This challenge is an official challenge track of the
 
   [Alternative Registration Form](https://wj.qq.com/s2/25735334/aa1d/) (**Only use this link when you have trouble opening the first registration link.**)
 
+-Link to the Q&A and Information Session Replay：
+  Youtube：https://www.youtube.com/watch?v=fxhK7GRIBb0
 
+  Wechat：Global Computing Consortium WeChat Video Channel
+
+-Demo Library：https://github.com/global-computing-consortium/ICME-Demo
 ---
 
 
