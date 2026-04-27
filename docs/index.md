@@ -230,10 +230,14 @@ This section involves perceptual quality scoring by a panel of human judges, con
 | Phase | Description | Date |
 |------|-------------|------|
 | Registration | Challenge registration period | Feb 10, 2026 – Apr 10, 2026 |
-| Submission | Result submission window | ~~Mar 15, 2026 – Apr 20, 2026 **(Tentative)**~~ Mar 15, 2026 – Apr 30, 2026 |
-| Review | Review & reproducibility verification | ~~Apr 15, 2026 – Apr 23, 2026 **(Tentative)**~~ Apr 15, 2026 – May 8, 2026 |
-| Announcement | Final results announcement | ~~Apr 27, 2026 **(Tentative)**~~ May 12, 2026|
-| Camera-Ready Deadline | Final results announcement | **May 15, 2026** |
+| ~~Submission~~ | ~~Result submission window~~ | ~~Mar 15, 2026 – Apr 20, 2026 **(Tentative)** Mar 15, 2026 – Apr 30, 2026~~ |
+| ~~Review~~ | ~~Review & reproducibility verification~~ | ~~Apr 15, 2026 – Apr 23, 2026 **(Tentative)** Apr 15, 2026 – May 8, 2026~~ |
+| ~~Announcement~~ | ~~Final results announcement~~ | ~~Apr 27, 2026 **(Tentative)** May 12, 2026~~|
+| Submission | Code submission deadline | Mar 7, 2026 |
+| Submission | Technical report submission deadline | Mar 10, 2026 |
+| Camera-Ready Deadline | For review | **May 13, 2026** |
+| Announcement | Final results announcement | May 14, 2026|
+| Camera-Ready Deadline | System closes | **May 15, 2026** |
 
 ---
 
