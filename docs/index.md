@@ -251,6 +251,8 @@ Each submission must be sent as a single archive (`.zip` / `.tar.gz`) and includ
 - Technical report (**PDF**)
 - Reproducibility scripts + instructions
 
+**Each report must be submitted following the [IEEE conference templates](https://www.ieee.org/conferences/publishing/templates).**
+  
 To make sure everyone can submit without stress, we’re now offering three flexible ways to send us your code and technical report.
 
 Please choose one of the following:
