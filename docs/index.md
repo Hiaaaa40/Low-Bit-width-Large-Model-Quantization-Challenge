@@ -252,18 +252,31 @@ Each submission must be sent as a single archive (`.zip` / `.tar.gz`) and includ
 - Reproducibility scripts + instructions
 
 To make sure everyone can submit without stress, we’re now offering three flexible ways to send us your code and technical report.
+
 Please choose one of the following:
+
 **Option 1 – Standard Email**
+
 Attach your files and send them directly to this address.
+
 Note: Your email provider may limit attachment sizes.
-**Option 2 – Hugging Face Private Repository(https://huggingface.co/)**
+
+**Option 2 – [Hugging Face Private Repository](https://huggingface.co/)**
+
 •	Create a private repository on Hugging Face.
+
 •	(Optional) Create an organization and grant read access to our official account: [GCC01].
+
 •	Reply to this email with the link to your private repo once it’s ready.
-**Option 3 – Modelers (魔乐社区) Private Repository(https://modelers.cn/models)**
-•	We will create a private repository for your team on the Modelers Community.
+
+**Option 3 – [Modelers (魔乐社区) Private Repository](https://modelers.cn/models)**
+
+We will create a private repository for your team on the Modelers Community.
+
 •	Simply reply to this email if you’d like to use this option.
+
 •	We’ll set up the repository and send you the access details, so you can push your code and report directly.
+
 •	If you have any specific requirements or questions, please contact us — we’re happy to help.
 
 
