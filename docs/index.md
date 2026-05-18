@@ -36,6 +36,9 @@ This challenge is an official challenge track of the
 | Innovation Reward   | ReopenAI                               |
 | Innovation Reward   | 梯度消失了个寂寞                               |
 
+*In no particular order.
+
+
 ## 🔹 Quick Start
 
 - 💻 **Complete Project Repository (GitCode):**  
