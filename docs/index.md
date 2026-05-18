@@ -10,6 +10,7 @@ This challenge is an official challenge track of the
 ---
 
 ## Leaderboard-Sub-Challenge 1
+
 | Rank | Team | Score |
 |-----------------|----------------------------------|----------------------------------------|
 | 1       | hust_Yao                               | 88.25                                     |
@@ -18,18 +19,23 @@ This challenge is an official challenge track of the
 | 3   | USTC-zhaslab                               | 85.225                                      |
 
 ## Leaderboard-Sub-Challenge 2
+
 | Rank | Team | Score |
 |-----------------|----------------------------------|----------------------------------------|
 | 1       | low team                               | 76.13                                     |
 | 2   | IflyBitbrain                               | 73.7                                     |
+
 * In Sub-Challenge 2, we received only 2 teams that satisfies the baseline.
+  
 ## Leaderboard-Innovation Challenge
+
 | Rank | Team |
 |-----------------|----------------------------------|
 | Innovation Reward       | 量化特种兵                               |
 | Innovation Reward   | Pacman                               |
 | Innovation Reward   | ReopenAI                               |
 | Innovation Reward   | 梯度消失了个寂寞                               |
+
 ## 🔹 Quick Start
 
 - 💻 **Complete Project Repository (GitCode):**  
